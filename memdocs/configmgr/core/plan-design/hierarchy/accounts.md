@@ -318,7 +318,7 @@ For more information, see [Introduction to certificate profiles](../../../protec
 
 When you capture an OS image, Configuration Manager uses the **Capture OS image account** to access the folder where you store captured images. If you add the **Capture OS Image** step to a task sequence, this account is required.
 
-The account must have **Read** and **Write** permissions on the network share where you store captured images.
+The account must have **Read**, **Read & Execute**, **Write** and **List folder contents** permissions on the network share where you store captured images.
 
 If you change the password for the account in Windows, update the task sequence with the new password. The Configuration Manager client receives the new password when it next downloads the client policy.
 
